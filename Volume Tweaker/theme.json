@@ -3,6 +3,7 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
+    "version": "v0.1",
     "description": "This is a sample theme that turns the QAM black",
     "inject": {
         "shared.css": ["SP"]
@@ -11,16 +12,11 @@
         "Preview": {
             "type": "checkbox",
             "default": "Yes",
-            "values": {
+                "values": {
                 "No": {},
-                "Yes": {
-                    "preview.css": ["SP"]
-                }
+                "Yes": { "preview.css": ["SP"] }
             }
-        }
-    },
-
-
+        },
         "Width": {
             "type": "slider",
             "default": "268px",
@@ -57,7 +53,9 @@
                     "290px": { "width/290px.css": ["SP"] },
                     "300px": { "width/300px.css": ["SP"] },
                     "310px": { "width/310px.css": ["SP"] }
+                }
             }
-      }
-   }
+                 
+        }
+    }
 }
