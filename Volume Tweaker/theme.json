@@ -8,10 +8,9 @@
     "inject": {
         "shared.css": ["SP"]
     },
-    "Patches": {
+    "patches": {
         "Preview": {
             "type": "checkbox",
-            "default": "Yes",
             "values": {
                 "No": {},
                 "Yes": {
