@@ -1,7 +1,7 @@
 {
     "name": "Volume Tweaker",
     "author": "Tripticon84",
-    "manifest_version": 4,
+    "manifest_version": 3,
     "target": "Tweak",
     "version": "v0.1.2",
     "description": "This is a sample theme that turns the QAM black",
