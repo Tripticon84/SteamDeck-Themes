@@ -13,8 +13,7 @@
             "values": {
                 "None": {},
                 "Red": {
-                    "red.css": ["QuickAccess"]
-                },
+                    "red.css": ["QuickAccess"]},
                 "Blue": {
                     "blue.css": ["QuickAccess"]
                 },

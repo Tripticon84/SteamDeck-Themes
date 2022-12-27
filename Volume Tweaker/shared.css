@@ -1,0 +1,7 @@
+:root {
+    --test-main-color: #000;
+}
+
+.audio_VolumePopin_2iUUM {
+    width: var(--volume-width);
+}

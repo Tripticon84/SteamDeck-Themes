@@ -1,0 +1,63 @@
+{
+    "name": "Volume Tweaker",
+    "author": "Tripticon84",
+    "manifest_version": 4,
+    "target": "Tweak",
+    "description": "This is a sample theme that turns the QAM black",
+    "inject": {
+        "shared.css": ["SP"]
+    },
+    "Patches": {
+        "Preview": {
+            "type": "checkbox",
+            "default": "Yes",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "preview.css": ["SP"]
+                }
+            }
+        }
+    },
+
+
+        "Width": {
+            "type": "slider",
+            "default": "268px",
+            "values": {
+                "values": {
+                    "230px": { "width/230px.css": ["SP"] },
+                    "240px": { "width/240px.css": ["SP"] },
+                    "250px": { "width/250px.css": ["SP"] },
+                    "255px": { "width/255px.css": ["SP"] },
+                    "260px": { "width/260px.css": ["SP"] },
+                    "268px": { "width/268px.css": ["SP"] },
+                    "275px": { "width/275px.css": ["SP"] },
+                    "280px": { "width/280px.css": ["SP"] },
+                    "290px": { "width/290px.css": ["SP"] },
+                    "300px": { "width/300px.css": ["SP"] },
+                    "310px": { "width/310px.css": ["SP"] }
+                }
+            }
+        },
+
+        "Width2": {
+            "type": "dropdown",
+            "default": "268px",
+            "values": {
+                "values": {
+                    "230px": { "width/230px.css": ["SP"] },
+                    "240px": { "width/240px.css": ["SP"] },
+                    "250px": { "width/250px.css": ["SP"] },
+                    "255px": { "width/255px.css": ["SP"] },
+                    "260px": { "width/260px.css": ["SP"] },
+                    "268px": { "width/268px.css": ["SP"] },
+                    "275px": { "width/275px.css": ["SP"] },
+                    "280px": { "width/280px.css": ["SP"] },
+                    "290px": { "width/290px.css": ["SP"] },
+                    "300px": { "width/300px.css": ["SP"] },
+                    "310px": { "width/310px.css": ["SP"] }
+            }
+      }
+   }
+}
