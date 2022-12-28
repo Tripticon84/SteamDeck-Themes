@@ -1,4 +1,4 @@
-# Steam-Deck-Theme-Repo
+# Tripticon84's Steam Deck Theme Repo
 
 To use the themes go to [suchmememanyskill's Steam Deck CSS loader](https://github.com/suchmememanyskill/SDH-CssLoader), and follow the instructions.
 
