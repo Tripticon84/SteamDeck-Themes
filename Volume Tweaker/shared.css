@@ -7,5 +7,5 @@
 }
 
 .audio_VolumePopin_2iUUM, .audio_VolumePopinHidden_1OwmL {
-    border-radius: var(--volume-round-radius);
+    border-radius: var(--volume-radius-size);
 }
