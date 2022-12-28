@@ -1,7 +1,11 @@
 :root {
-    --test-main-color: #00
+    --volume-round-radius: none;
 }
 
 .audio_VolumePopin_2iUUM {
     width: var(--volume-width);
+}
+
+.audio_VolumePopin_2iUUM, .audio_VolumePopinHidden_1OwmL {
+    border-radius: var(--volume-round-radius);
 }

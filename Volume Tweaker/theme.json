@@ -3,7 +3,7 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v0.2",
+    "version": "v0.3",
     "description": "This theme can tweak HOW and WHERE the volume slider is displayed. Don't forget to disable the preview button.",
     "inject": {
         "shared.css": ["SP"]
@@ -45,6 +45,17 @@
             }
         },
 
-        ""
+        "Round Conners": {
+            "type":"slider",
+            "values":{
+                "None": {},
+                "3px": { "round/3px.css": ["SP"] },
+                "5px": { "round/5px.css": ["SP"] },
+                "10px": { "round/10px.css": ["SP"] },
+                "15px": { "round/15px.css": ["SP"] },
+                "20px": { "round/20px.css": ["SP"] },
+                "30px": { "round/30px.css": ["SP"] }
+            }
+        }
     }
 }
