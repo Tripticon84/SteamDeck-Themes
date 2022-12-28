@@ -6,5 +6,7 @@ To use the themes go to [suchmememanyskill's Steam Deck CSS loader](https://gith
 
 ### Volume Tweaker
 
-Add a bunch of option to customize the volume popup.
+Add a bunch of options to customize the volume popup.
+
+
 ![](./ressources/volume-tweaker.jpg)
