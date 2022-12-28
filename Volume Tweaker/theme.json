@@ -3,8 +3,8 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v0.5",
-    "description": "This theme can tweak HOW and WHERE the volume slider is displayed. Don't forget to disable the preview button.",
+    "version": "v1.0",
+    "description": "Tweak in many ways the volume popup. Don't forget to disable the preview button.",
     "inject": {
         "shared.css": ["SP"]
     },
@@ -45,8 +45,9 @@
             }
         },
 
-        "Round Conners": {
+        "Round Corners": {
             "type":"slider",
+            "default": "None",
             "values":{
                 "None": {},
                 "3px": { "round/3px.css": ["SP"] },
@@ -55,6 +56,16 @@
                 "10px": { "round/10px.css": ["SP"] },
                 "13px": { "round/13px.css": ["SP"] },
                 "16px": { "round/16px.css": ["SP"] }
+            }
+        },
+
+        "Speaker Icon": {
+            "type":"checkbox",
+            "values": {
+                "Yes": {},
+                "No": {
+                    "speaker.css": ["SP"]
+                }
             }
         }
     }
