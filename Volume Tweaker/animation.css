@@ -1,0 +1,4 @@
+.audio_VolumePopin_2iUUM,
+.gamepadslider_SliderTrack_Mq25N::before {
+	transition: width .5s linear;
+}

@@ -3,7 +3,7 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v0.1.4",
+    "version": "v0.2",
     "description": "This theme can tweak HOW and WHERE the volume slider is displayed. Don't forget to disable the preview button.",
     "inject": {
         "shared.css": ["SP"]
@@ -33,7 +33,18 @@
                 "9": { "width/9.css": ["SP"] },
                 "10": { "width/10.css": ["SP"] }                
             }
-        }
+        },
 
+        "Volume animation": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "animation.css": ["SP"]
+                }
+            }
+        },
+
+        ""
     }
 }
