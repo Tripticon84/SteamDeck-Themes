@@ -70,21 +70,49 @@
                 }
             }
         },
+        
+        "Custom Colors:": {
+            "type": "none",
+            "values": {
+                "_": {}
+            }
+        },
+
         "Custom Background Color": {
             "type": "checkbox",
             "values": {
                 "No": {},
                 "Yes": {
-                    "shared.css": ["SP"]
+                    "colors/background-color.css": ["SP"]
                 }
             },
             "components": [
                 {
-                    "name": "Background Picker",
+                    "name": "Color Picker",
                     "type": "color-picker",
                     "on": "Yes",
                     "default": "#23262e",
                     "css_variable": "volume-background-color",
+                    "tabs": ["SP"]
+                }
+            ]
+        },
+
+        "Custom Speaker Color": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "colors/speaker-color.css": ["SP"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Color Picker",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#FFFFFF",
+                    "css_variable": "volume-speaker-color",
                     "tabs": ["SP"]
                 }
             ]

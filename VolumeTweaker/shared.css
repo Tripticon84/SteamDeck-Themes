@@ -1,13 +1,8 @@
 :root {
     --volume-round-radius: none;
-    --volume-background-color: #23262e;
-}
-
-.audio_VolumePopin_2iUUM {
-    width: var(--volume-width);
 }
 
 .audio_VolumePopin_2iUUM, .audio_VolumePopinHidden_1OwmL {
     border-radius: var(--volume-radius-size);
-    background-color: var(--volume-background-color);
+    width: var(--volume-width);
 }
