@@ -3,7 +3,7 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v1.0",
+    "version": "v1.1",
     "description": "Add a bunch of option to customize the volume popup. Don't forget to disable the preview button.",
     "inject": {
         "shared.css": ["SP"]
@@ -69,6 +69,25 @@
                     "speaker.css": ["SP"]
                 }
             }
+        },
+        "Custom Background Color": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "shared.css": ["SP"]
+                }
+            },
+            "components": [
+                {
+                    "name": "Background Picker",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#23262e",
+                    "css_variable": "volume-background-color",
+                    "tabs": ["SP"]
+                }
+            ]
         }
     }
 }
