@@ -3,11 +3,10 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v1.3",
+    "version": "v1.5",
     "description": "Add a bunch of option to customize the volume popup. Don't forget to disable the preview button.",
     "inject": {
-        "shared.css": ["SP"]
-    },
+        "shared.css": ["SP"] },
 
     "patches": {
         "Preview": {
@@ -15,8 +14,7 @@
             "values": {
                 "No": {},
                 "Yes": {
-                    "preview.css": ["SP"]
-                }
+                    "preview.css": ["SP"] }
             }
         },
 
@@ -56,8 +54,7 @@
             "values": {
                 "No": {},
                 "Yes": {
-                    "animation.css": ["SP"]
-                }
+                    "animation.css": ["SP"] }
             }
         },
 
@@ -66,8 +63,7 @@
             "values": {
                 "Yes": {},
                 "No": {
-                    "speaker.css": ["SP"]
-                }
+                    "speaker.css": ["SP"] }
             }
         },
 
@@ -78,13 +74,12 @@
             }
         },
 
-        "Custom Background Color": {
+        "Background Color": {
             "type": "checkbox",
             "values": {
                 "No": {},
                 "Yes": {
-                    "colors/background-color.css": ["SP"]
-                }
+                    "colors/background-color.css": ["SP"] }
             },
             "components": [
                 {
@@ -93,18 +88,17 @@
                     "on": "Yes",
                     "default": "#23262e",
                     "css_variable": "volume-background-color",
-                    "tabs": ["SP"]
+                    "tabs": ["SP"] 
                 }
             ]
         },
 
-        "Custom Speaker Color": {
+        "Speaker Color": {
             "type": "checkbox",
             "values": {
                 "No": {},
                 "Yes": {
-                    "colors/speaker-color.css": ["SP"]
-                }
+                    "colors/speaker-color.css": ["SP"] }
             },
             "components": [
                 {
@@ -113,6 +107,33 @@
                     "on": "Yes",
                     "default": "#FFFFFF",
                     "css_variable": "volume-speaker-color",
+                    "tabs": ["SP"] 
+                }
+            ]
+        },
+
+        "Bar Color": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "colors/bar-color.css": ["SP"] }
+            },
+            "components": [
+                {
+                    "name": "Bar Picker",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#1a9fff",
+                    "css_variable": "volume-bar-color",
+                    "tabs": ["SP"]
+                },
+                {
+                    "name": "Background Picker",
+                    "type": "color-picker",
+                    "on": "Yes",
+                    "default": "#000000",
+                    "css_variable": "volume-background-bar-color",
                     "tabs": ["SP"]
                 }
             ]
