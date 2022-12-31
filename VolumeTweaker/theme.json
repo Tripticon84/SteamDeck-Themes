@@ -3,7 +3,7 @@
     "author": "Tripticon84",
     "manifest_version": 4,
     "target": "Tweak",
-    "version": "v1.5",
+    "version": "v1.6",
     "description": "Add a bunch of option to customize the volume popup. Don't forget to disable the preview button.",
     "inject": {
         "shared.css": ["SP"] },
@@ -15,6 +15,19 @@
                 "No": {},
                 "Yes": {
                     "preview.css": ["SP"] }
+            }
+        },
+
+        "Position": {
+            "type": "slider",
+            "defalut": "Top Left",
+            "values": {
+                "Top Left": { "position/top-left.css": ["SP"]},
+                "Top Center": { "position/top-center.css": ["SP"]},
+                "Top Right": { "position/top-right.css": ["SP"] },
+                "Bottom Left": { "position/bottom-left.css": ["SP"] },
+                "Bottom Center": { "position/bottom-center.css": ["SP"] },
+                "Bottom Right": { "position/bottom-right.css": ["SP"] }
             }
         },
 
