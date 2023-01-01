@@ -62,7 +62,7 @@
             }
         },
 
-        "Volume animation": {
+        "Bar animation": {
             "type": "checkbox",
             "values": {
                 "No": {},
@@ -77,13 +77,6 @@
                 "Yes": {},
                 "No": {
                     "speaker.css": ["SP"] }
-            }
-        },
-
-        "Custom Colors:": {
-            "type": "none",
-            "values": {
-                "_": {}
             }
         },
 
