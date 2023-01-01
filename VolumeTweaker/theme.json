@@ -2,7 +2,7 @@
     "name": "Volume Tweaker",
     "author": "Tripticon84",
     "manifest_version": 4,
-    "target": "Tweak",
+    "target": "Other",
     "version": "v1.6",
     "description": "Add a bunch of option to customize the volume popup. Don't forget to disable the preview button.",
     "inject": {
