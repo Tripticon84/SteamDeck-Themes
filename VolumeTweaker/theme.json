@@ -38,7 +38,7 @@
                 "Right": { "text/right.css": ["SP"]},
                 "Center": { "text/center.css": ["SP"]},
                 "Left": { "text/left.css": ["SP"] },
-                "Hidden": { "position/hidden.css": ["SP"] }
+                "Hidden": { "text/hidden.css": ["SP"] }
             }
         },
 
