@@ -31,6 +31,17 @@
             }
         },
 
+        "Text Position": {
+            "type": "slider",
+            "defalut": "Right",
+            "values": {
+                "Right": { "text/right.css": ["SP"]},
+                "Center": { "text/center.css": ["SP"]},
+                "Left": { "text/left.css": ["SP"] },
+                "Hidden": { "text/hidden.css": ["SP"] }
+            }
+        },
+
         "Width": {
             "type": "slider",
             "default": "5",
