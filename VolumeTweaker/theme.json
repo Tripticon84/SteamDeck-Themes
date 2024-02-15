@@ -161,7 +161,7 @@
 			},
 			"components": [
 				{
-					"name": "Color Picker",
+					"name": "Background Color Picker",
 					"type": "color-picker",
 					"on": "Yes",
 					"default": "#23262e",
@@ -204,8 +204,16 @@
 					"name": "Bar Color Picker",
 					"type": "color-picker",
 					"on": "Yes",
-					"default": "#1a9fff",
+					"default": "#1A9fff",
 					"css_variable": "volume-bar-color",
+					"tabs": ["SP"]
+				},
+				{
+					"name": "Background Bar Picker",
+					"type": "color-picker",
+					"on": "Yes",
+					"default": "#000000",
+					"css_variable": "volume-background-bar-color",
 					"tabs": ["SP"]
 				}
 			]
